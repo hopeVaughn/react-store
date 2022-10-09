@@ -14,7 +14,7 @@ const AboutPage = () => {
             <h2>Our Story</h2>
             <div className="underline"></div>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et sequi labore omnis perspiciatis non ratione tempore voluptatum quibusdam incidunt voluptatem sapiente adipisci recusandae, illo quos laudantium beatae quas iste?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat amet iste neque veritatis mollitia quibusdam non quae voluptatum perferendis, rerum corrupti cumque pariatur quia eligendi doloremque! Eligendi sequi tempora odio rerum officiis iure impedit veritatis. Ab, magnam consequatur eius distinctio nesciunt ipsam atque illo neque. Quod animi dolor praesentium esse?</p>
         </article>
 
       </Wrapper>
