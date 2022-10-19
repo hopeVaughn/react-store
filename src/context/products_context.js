@@ -21,7 +21,7 @@ const initialState = {
   featured_products: [],
   single_product_loading: false,
   single_product_error: false,
-  single_product_loading: {},
+  single_product: {},
 }
 
 const ProductsContext = React.createContext()
@@ -56,7 +56,8 @@ export const ProductsProvider = ({ children }) => {
       const singleProduct = response.data
       dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: singleProduct })
     } catch (error) {
-      dispatch({ type: GET_PRODUCTS_ERROR })
+      dispatch({ type: GET_SINGLE_PRODUCT_ERROR })
+      console.error(error);
     }
   }
 
