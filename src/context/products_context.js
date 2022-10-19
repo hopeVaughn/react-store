@@ -30,7 +30,14 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: SIDEBAR_CLOSE })
   }
 
+  const fetchProducts = async (url) => {
+    const response = await axios.get(url)
+    console.log(response);
+  }
 
+  useEffect(() => {
+    fetchProducts(url)
+  }, [])
 
   const value = {
     ...state,
