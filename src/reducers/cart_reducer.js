@@ -69,7 +69,6 @@ const cart_reducer = (state, action) => {
       }
       return item
     })
-
     return { ...state, cart: tempCart }
   }
 
