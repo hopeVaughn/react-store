@@ -21,14 +21,7 @@ const CartButtons = () => {
           </span>
         </span>
       </Link>
-      <button
-        type='button'
-        className='auth-btn'
-        onClick={loginWithRedirect}
-      >
-        Login <FaUserPlus />
-      </button>
-      <button
+      {myUser ? <button
         type="button"
         className="auth-btn"
         onClick={() => logout(
@@ -36,7 +29,15 @@ const CartButtons = () => {
         )}
       >
         Logout <FaUserMinus />
-      </button>
+      </button> : <button
+        type='button'
+        className='auth-btn'
+        onClick={loginWithRedirect}
+      >
+        Login <FaUserPlus />
+      </button>}
+
+
     </Wrapper>
   )
 }
