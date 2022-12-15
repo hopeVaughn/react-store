@@ -6,12 +6,12 @@ This React project demonstrates what the front end of a e-commerce site could lo
 
 ## Final Product
 
-!["landing Page"](https://github.com/hopeVaughn/react-store/blob/master/store-front.png)
-!["login authentication"](https://github.com/hopeVaughn/react-store/blob/master/store-front-2.png)
-!["all products"](https://github.com/hopeVaughn/react-store/blob/master/store-front-3.png)
-!["single product"](https://github.com/hopeVaughn/react-store/blob/master/store-front-4.png)
-!["shopping cart"](https://github.com/hopeVaughn/react-store/blob/master/store-front-5.png)
-!["check out"](https://github.com/hopeVaughn/react-store/blob/master/store-front-6.png)
+!["landing Page"](https://github.com/hopeVaughn/react-store/blob/main/store-front.png)
+!["login authentication"](https://github.com/hopeVaughn/react-store/blob/main/store-front-2.png)
+!["all products"](https://github.com/hopeVaughn/react-store/blob/main/store-front-3.png)
+!["single product"](https://github.com/hopeVaughn/react-store/blob/main/store-front-4.png)
+!["shopping cart"](https://github.com/hopeVaughn/react-store/blob/main/store-front-5.png)
+!["check out"](https://github.com/hopeVaughn/react-store/blob/main/store-front-6.png)
 
 ## Getting Started
 
