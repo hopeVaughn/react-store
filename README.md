@@ -22,9 +22,9 @@ This React project demonstrates what the front end of a e-commerce site could lo
 
 ## Dependencies
 
--Stripe
--Auth0
--Axios
--dotenv
--Styled-Components
--React-Icons
+- Stripe
+- Auth0
+- Axios
+- dotenv
+- Styled-Components
+- React-Icons
